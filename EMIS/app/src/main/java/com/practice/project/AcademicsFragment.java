@@ -28,14 +28,14 @@ public class AcademicsFragment extends Fragment implements View.OnClickListener,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_academics, container, false);
 
-        // Initialize the CardView instances
+
         card1 = rootView.findViewById(R.id.ten);
         card2 = rootView.findViewById(R.id.twelve);
         card3 = rootView.findViewById(R.id.diploma);
         card4 = rootView.findViewById(R.id.eng);
         card5 = rootView.findViewById(R.id.pg);
 
-        // Set click listeners for the CardViews
+        //  click listeners
         card1.setOnClickListener(this);
         card2.setOnClickListener(this);
         card3.setOnClickListener(this);
@@ -91,12 +91,17 @@ public class AcademicsFragment extends Fragment implements View.OnClickListener,
 
             return true;
         } else if (view.getId() == R.id.twelve) {
-            // Handle long press on the "12th" CardView
+
+            //path set kara varti jasa kelay inetent gheun //actvity banva 12 vi 10 vi chya add krnayasathi data ani
+            // path varchya sarkha dya sglikde
+
             return true;
         } else if (view.getId() == R.id.diploma) {
+
             // Handle long press on the "Diploma" CardView
             return true;
         } else if (view.getId() == R.id.eng) {
+
             // Handle long press on the "Engineering" CardView
             return true;
         } else if (view.getId() == R.id.pg) {
@@ -104,7 +109,7 @@ public class AcademicsFragment extends Fragment implements View.OnClickListener,
             return true;
         }
 
-        return false; // Return false if the long click event is not consumed by any CardView
+        return false;
     }
 
 }

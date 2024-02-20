@@ -6,12 +6,33 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/di"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
+        <activity
+            android:name=".academics.Activity10Long"
+            android:exported="false" />
+        <activity
+            android:name=".academics.PgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".academics.DiplomaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".academics.EngineeringActivity"
+            android:exported="false" />
+        <activity
+            android:name=".academics.Activity12"
+            android:exported="false" />
+        <activity
+            android:name=".academics.Activity10th"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentActivity1"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

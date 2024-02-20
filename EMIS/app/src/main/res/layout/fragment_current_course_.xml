@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".CurrentCourse_Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/my_primary"
+        android:alpha="0.4">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="600dp"
+        app:cardElevation="11dp"
+        android:id="@+id/cardview"
+        app:cardCornerRadius="28dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="70dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COURSE:"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="course"
+            android:id="@+id/course"
+
+            android:paddingLeft="200dp"
+            android:paddingTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MARKS"
+            android:paddingLeft="20dp"
+            android:paddingTop="80dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="marks"
+            android:id="@+id/marks"
+            android:paddingLeft="200dp"
+            android:paddingTop="80dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ATTENDANCE"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="300dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="attendace"
+            android:id="@+id/atten"
+
+            android:paddingLeft="200dp"
+            android:paddingTop="300dp"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

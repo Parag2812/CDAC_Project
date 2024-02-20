@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Dashboard_fragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="140dp"
+        app:cardElevation="28dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="35dp"
+        app:cardCornerRadius="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Announcemnets"
+            android:paddingLeft="130dp"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="240dp"
+        app:cardElevation="28dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="35dp"
+        app:cardCornerRadius="28dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notices"
+        android:paddingLeft="140dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="140dp"
+        app:cardElevation="28dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="35dp"
+        app:cardCornerRadius="28dp"/>
+
+
+
+</LinearLayout>

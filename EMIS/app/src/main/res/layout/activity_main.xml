@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sunbeam"
-    
     tools:context=".MainActivity">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -80,6 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
+                android:id="@+id/edituser"
                 android:drawableEnd="@drawable/done"/>
 
             <View
@@ -96,6 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
+                android:id="@+id/editpass"
                 android:drawableEnd="@drawable/eye"/>
 
             <RelativeLayout
@@ -124,6 +125,7 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:id="@+id/login"
                 android:text="Login"
                 android:backgroundTint="@color/my_primary"
                 app:cornerRadius="32dp"/>

@@ -2,34 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     android:orientation="vertical"
-    tools:context=".academics.Activity10Long">
-
+    android:padding="16dp"
+    tools:context=".academics.Activity12Long">
     <TextView
-        android:id="@+id/sscinfo"
-        android:text="SSC Info"
+        android:text="HSC Info"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="24dp"/>
 
     <!-- Edit Text Fields -->
     <EditText
-        android:id="@+id/ssceditpercentage"
+        android:id="@+id/hsceditpercentage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
         android:hint="Edit Percentage"
+        android:inputType="numberDecimal"
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/sscedityearofpassing"
+        android:id="@+id/hscedityearofpassing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
@@ -37,7 +34,7 @@
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/ssceditboard"
+        android:id="@+id/hsceditboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -51,20 +48,21 @@
         android:orientation="horizontal">
 
         <Button
-            android:onClick="sscsave_button"
+            android:onClick="hscsave_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Save"
-            android:layout_marginEnd="8dp" />
+            android:layout_marginEnd="8dp"/>
 
         <Button
-            android:onClick="ssccancel_button"
+            android:onClick="hsccancel_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Cancel"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="8dp"/>
     </LinearLayout>
 
 </LinearLayout>
+

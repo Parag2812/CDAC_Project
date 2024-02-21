@@ -2,26 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context=".academics.Activity10Long">
+    tools:context=".academics.Editpg_Activity">
 
+    <!-- Post Graduation Info TextView -->
     <TextView
-        android:id="@+id/sscinfo"
-        android:text="SSC Info"
-        android:gravity="center"
+        android:text="Post Graduation Info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:gravity="center"
+        android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="20dp"/>
 
     <!-- Edit Text Fields -->
     <EditText
-        android:id="@+id/ssceditpercentage"
+        android:id="@+id/pgeditpercentage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
@@ -29,7 +28,7 @@
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/sscedityearofpassing"
+        android:id="@+id/pgedityearofpassing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
@@ -37,7 +36,7 @@
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/ssceditboard"
+        android:id="@+id/pgeditboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -51,20 +50,20 @@
         android:orientation="horizontal">
 
         <Button
-            android:onClick="sscsave_button"
+            android:onClick="pgsave_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Save"
-            android:layout_marginEnd="8dp" />
+            android:layout_marginEnd="8dp"/>
 
         <Button
-            android:onClick="ssccancel_button"
+            android:onClick="pgcancel_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Cancel"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="8dp"/>
     </LinearLayout>
 
 </LinearLayout>

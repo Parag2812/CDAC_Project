@@ -1,9 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".academics.DiplomaActivity">
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".academics.Diploma_Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Title: Diploma Academic Info -->
+    <TextView
+        android:id="@+id/diplomainfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Diploma Academic Info"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp" />
+
+    <!-- Percentage -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/diplomapercentage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Percentage"/>
+
+        <TextView
+            android:id="@+id/diplomamarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20" />
+    </LinearLayout>
+
+    <!-- Year of Passing -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/diplomayearofpassing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Year of Passing"/>
+
+        <TextView
+            android:id="@+id/diplomayear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2025" />
+    </LinearLayout>
+
+    <!-- Board Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/diplomaboardname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Board Name" />
+
+        <TextView
+            android:id="@+id/diplomaboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maharashtra"/>
+    </LinearLayout>
+
+    <!-- Edit Button -->
+
+</LinearLayout>

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Dashboard_fragment">
+    tools:context=".fragments.Dashboard_fragment">
 
     <androidx.cardview.widget.CardView
         android:layout_width="340dp"
@@ -16,10 +16,13 @@
         app:cardCornerRadius="28dp">
 
         <TextView
+            android:id="@+id/announcemnets"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Announcemnets"
-            android:paddingLeft="130dp"/>
+            android:paddingLeft="130dp"
+            android:paddingTop="50dp"
+            />
     </androidx.cardview.widget.CardView>
 
 
@@ -33,10 +36,12 @@
         app:cardCornerRadius="28dp" >
 
     <TextView
+        android:id="@+id/notice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Notices"
-        android:paddingLeft="140dp"/>
+        android:paddingLeft="140dp"
+        android:paddingTop="100dp"/>
 
     </androidx.cardview.widget.CardView>
 

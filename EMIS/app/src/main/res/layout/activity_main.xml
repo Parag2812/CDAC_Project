@@ -104,6 +104,7 @@
                 android:layout_height="wrap_content">
 
                 <CheckBox
+                    android:id="@+id/checkboxRememberMe"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Remember me"
@@ -123,12 +124,13 @@
                 android:layout_height="10dp"/>
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/loginButton"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:id="@+id/login"
-                android:text="Login"
                 android:backgroundTint="@color/my_primary"
-                app:cornerRadius="32dp"/>
+                android:onClick="login"
+                android:text="Login"
+                app:cornerRadius="32dp" />
 
             <View
                 android:layout_width="wrap_content"

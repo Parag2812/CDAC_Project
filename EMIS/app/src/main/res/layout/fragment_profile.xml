@@ -1,15 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="18sp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileFragment">
+    tools:context=".profile.ProfileFragment">
+
 
 
     <TextView
+        android:paddingTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Profile"
-        android:paddingTop="250dp"
-        android:textAlignment="center" />
+        android:textStyle="bold"
+        android:textSize="25dp"
+        >
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/studentID"
+        android:paddingTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID - "
+        android:textSize="20dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/firstname"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name - "
+        android:textSize="20dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lastname"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LastName - "
+        android:textSize="20dp"
+        >
+    </TextView>
+
+
+
+
+
+    <TextView
+        android:id="@+id/gender"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender - "
+        android:textSize="20dp"
+        >
+    </TextView>
+
+
+
+
+    <TextView
+        android:id="@+id/dob"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth: - "
+        android:textSize="20dp"
+        >
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/email"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: - "
+        android:textSize="20dp"
+        >
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/contactnumber"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:textSize="20dp"
+        >
+    </TextView>
+
+
+
+
+    <TextView
+        android:id="@+id/address"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: - "
+        android:textSize="20dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/password"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password: - "
+        android:textSize="20dp"
+        >
+    </TextView>
+
+
+
+
+    <LinearLayout
+        android:paddingTop="40dp"
+        android:paddingLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDIT"
+            android:id="@+id/editbtn"
+            >
+
+        </Button>
+
+
+
+
+        <Button
+            android:backgroundTint="@color/design_default_color_error"
+            android:layout_marginLeft="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/logoutbtn">
+
+        </Button>
+
+    </LinearLayout>
+
 </LinearLayout>

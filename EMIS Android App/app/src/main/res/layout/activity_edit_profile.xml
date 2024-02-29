@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18sp"
+    tools:context=".profile.EditProfile">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Profile"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editStudentID"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="StudentID" />-->
+
+    <EditText
+        android:paddingTop="10dp"
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name" />
+
+    <EditText
+        android:paddingTop="10dp"
+        android:id="@+id/editLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <EditText
+        android:paddingTop="10dp"
+        android:id="@+id/editGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender" />
+
+    <EditText
+        android:paddingTop="10dp"
+        android:id="@+id/editDateofBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        android:inputType="date"/>
+
+    <EditText
+        android:paddingTop="10dp"
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:paddingTop="10dp"
+        android:id="@+id/editContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:paddingTop="10dp"
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address" />
+
+    <EditText
+        android:paddingTop="10dp"
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="40dp"
+        android:paddingLeft="100dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4B954E"
+            android:layout_marginRight="20dp"
+            android:onClick="savepro"
+            android:text="SAVE" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#CC291D"
+            android:layout_marginLeft="20dp"
+            android:onClick="cancel"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</LinearLayout>
+
